@@ -163,7 +163,7 @@ $xml = <<<XML
        </cac:InvoiceLine>
     </Invoice>
   XML;
-$des = new Ishifoev\Invoice\DeserializeInvoice;
+$des = new Pondersource\Invoice\DeserializeInvoice;
 $res = $des->deserializeXML($xml);
 var_dump($res);
 exit;
