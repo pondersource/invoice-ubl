@@ -64,7 +64,7 @@ class PostalAddress implements XmlSerializable, XmlDeserializable
     /**
      * Set addional street name
      */
-    public function setAddionalStreetName(?string $additionalStreetName): PostalAddress
+    public function setAdditionalStreetName(?string $additionalStreetName): PostalAddress
     {
         $this->additionalStreetName = $additionalStreetName;
         return $this;
