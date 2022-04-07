@@ -71,7 +71,7 @@ class Contact implements XmlSerializable, XmlDeserializable
     /**
      * get electroic Mail
      */
-    public function getElectroicMail(): ?string
+    public function getElectronicMail(): ?string
     {
         return $this->electronicMail;
     }
