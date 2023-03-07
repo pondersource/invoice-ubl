@@ -18,7 +18,7 @@ class LegalEntity implements XmlSerializable, XmlDeserializable
     /**
      * Seller name
      */
-    public function getRegistrationNumber(): ?string
+    public function getRegistrationName(): ?string
     {
         return $this->registrationName;
     }
@@ -26,7 +26,7 @@ class LegalEntity implements XmlSerializable, XmlDeserializable
     /**
      * Set seller name;
      */
-    public function setRegistrationNumber(?string $registrationName): LegalEntity
+    public function setRegistrationName(?string $registrationName): LegalEntity
     {
         $this->registrationName = $registrationName;
         return $this;
